@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17788" started-at="2018-09-16T02:13:58Z" finished-at="2018-09-16T02:14:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17788" started-at="2018-09-16T02:13:58Z" finished-at="2018-09-16T02:14:16Z">
+      <class name="com.sp.SPMaven.SimplePracticeHomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sp.SPMaven.SimplePracticeHomePageTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="10674" started-at="2018-09-16T02:13:58Z" finished-at="2018-09-16T02:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogoPresence()[pri:1, instance:com.sp.SPMaven.SimplePracticeHomePageTest@6a41eaa2]" name="verifyLogoPresence" duration-ms="101" started-at="2018-09-16T02:14:09Z" finished-at="2018-09-16T02:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoPresence -->
+        <test-method status="PASS" signature="upgradeMyAccountShouldBeVisible()[pri:3, instance:com.sp.SPMaven.SimplePracticeHomePageTest@6a41eaa2]" name="upgradeMyAccountShouldBeVisible" duration-ms="73" started-at="2018-09-16T02:14:09Z" finished-at="2018-09-16T02:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upgradeMyAccountShouldBeVisible -->
+        <test-method status="PASS" signature="createBtnShouldBeVisible()[pri:4, instance:com.sp.SPMaven.SimplePracticeHomePageTest@6a41eaa2]" name="createBtnShouldBeVisible" duration-ms="405" started-at="2018-09-16T02:14:09Z" finished-at="2018-09-16T02:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBtnShouldBeVisible -->
+        <test-method status="PASS" signature="searchBarShouldBeVisible()[pri:5, instance:com.sp.SPMaven.SimplePracticeHomePageTest@6a41eaa2]" name="searchBarShouldBeVisible" duration-ms="40" started-at="2018-09-16T02:14:10Z" finished-at="2018-09-16T02:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarShouldBeVisible -->
+        <test-method status="PASS" signature="helpButtonShouldBeVisible()[pri:6, instance:com.sp.SPMaven.SimplePracticeHomePageTest@6a41eaa2]" name="helpButtonShouldBeVisible" duration-ms="33" started-at="2018-09-16T02:14:10Z" finished-at="2018-09-16T02:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helpButtonShouldBeVisible -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.sp.SPMaven.SimplePracticeHomePageTest@6a41eaa2]" name="browserClose" is-config="true" duration-ms="6355" started-at="2018-09-16T02:14:10Z" finished-at="2018-09-16T02:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.sp.SPMaven.SimplePracticeHomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.sp.SPMaven.AddaNewClientTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyCanCreateSaveClient"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.sp.SPMaven.AddaNewClientTest -->
+      <class name="com.sp.SPMaven.SimplePracticeHomePageTest">
+        <methods>
+          <include name="CompareLogo"/>
+          <include name="shouldBeAbleToChooseActivity"/>
+          <include name="upgradeMyAccountShouldBeVisible"/>
+          <include name="searchBarShouldBeVisible"/>
+          <include name="VerifySelectAppointmentFromCreateDD"/>
+          <include name="helpButtonShouldBeVisible"/>
+          <include name="shouldBeAbleToChooseCalendar"/>
+          <include name="verifyCreatebtnClick"/>
+          <include name="shouldBeAbleToChooseClients"/>
+          <include name="shouldBeAbleToChooseInsights"/>
+          <include name="shouldBeAbleToChooseReminders"/>
+          <include name="verifyMyAccountClick"/>
+          <include name="verifyCalandarText"/>
+          <include name="VerifyLogout"/>
+          <include name="shouldBeAbleToChooseBilling"/>
+          <include name="setUp"/>
+          <include name="createAppointmentForExistingClient"/>
+          <include name="createBtnShouldBeVisible"/>
+          <include name="browserClose"/>
+          <include name="verifyHelpButtonClick"/>
+          <include name="verifyLogoPresence"/>
+        </methods>
+      </class> <!-- com.sp.SPMaven.SimplePracticeHomePageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

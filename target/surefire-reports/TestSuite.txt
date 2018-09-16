@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 1, Errors: 0, Skipped: 23, Time elapsed: 0.514 s <<< FAILURE! - in TestSuite
+setUp(com.sp.SPMaven.AddaNewClientTest)  Time elapsed: 0.284 s  <<< FAILURE!
+java.lang.NullPointerException: key can't be null
+	at com.sp.SPMaven.AddaNewClientTest.setUp(AddaNewClientTest.java:29)
+

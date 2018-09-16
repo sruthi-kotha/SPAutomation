@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.sp.SPMaven.SimplePracticeHomePageTest">
+        <methods>
+          <include name="CompareLogo"/>
+          <include name="shouldBeAbleToChooseActivity"/>
+          <include name="VerifySelectAppointmentFromCreateDD"/>
+          <include name="shouldBeAbleToChooseCalendar"/>
+          <include name="verifyCreatebtnClick"/>
+          <include name="shouldBeAbleToChooseClients"/>
+          <include name="shouldBeAbleToChooseInsights"/>
+          <include name="shouldBeAbleToChooseReminders"/>
+          <include name="verifyMyAccountClick"/>
+          <include name="verifyCalandarText"/>
+          <include name="VerifyLogout"/>
+          <include name="shouldBeAbleToChooseBilling"/>
+          <include name="setUp"/>
+          <include name="createAppointmentForExistingClient"/>
+          <include name="browserClose"/>
+          <include name="verifyHelpButtonClick"/>
+        </methods>
+      </class> <!-- com.sp.SPMaven.SimplePracticeHomePageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
